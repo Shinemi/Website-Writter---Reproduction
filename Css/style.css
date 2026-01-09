@@ -22,18 +22,6 @@ a:hover{
 
 }
 
-button:hover{
-    color: #4F966E;
-    transition: all ease-in-out 0.2s;
-
-}
-
-button{
-    transition: all ease-in-out 0.2s;
-    color: black;
-    outline:none;
-}
-
 input{
 outline:none;
 
@@ -91,21 +79,39 @@ color: #4F966E;
         border: none;
     }
 
-    header button{
+    #loginBTN{
         margin: 0px 40px;
         background-color: #E8F2ED;
         color: black;
         font-weight: bold;
         border-radius: 30px;
         border: none;
-        padding: 0px 30px;
+        padding: 17px 30px;
+    }
+    
+    #loginBTN:hover{
+    color: #4F966E;
+    transition: all ease-in-out 0.2s;
+
     }
 
 /* #endregion HEADER */
 
 /* #region FOOTER */
 
+    footer div{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        text-align: center;
+        margin: 50px;
+    }
 
+    footer{
+        max-width: 1280px;
+        margin: auto;
+        text-align: center;
+        padding: 30px 0px;
+    }
 
 
 /* #endregion FOOTER*/
