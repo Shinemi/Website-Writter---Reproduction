@@ -1,0 +1,120 @@
+/* #region GENERAL*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    font-size: 16px;
+    font-family:"Newsreader", serif;;
+}
+
+a{
+    text-decoration: none;
+    color: #4F966E;
+    transition: all ease-in-out 0.2s;
+
+}
+
+a:hover{
+    color: #504f4f;
+    transition: all ease-in-out 0.2s;
+    outline:none;
+
+}
+
+button:hover{
+    color: #4F966E;
+    transition: all ease-in-out 0.2s;
+
+}
+
+button{
+    transition: all ease-in-out 0.2s;
+    color: black;
+    outline:none;
+}
+
+input{
+outline:none;
+
+} 
+
+::placeholder {
+color: #4F966E;
+}
+
+/* #endregion GENERAL */
+
+/* #region HEADER */
+
+    header{
+        box-shadow: 0px 0px 2px grey;
+    }
+    header nav{
+        display: flex;
+        max-width: 1280px;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0px;
+    }
+
+    #logoHeader{
+        font-size: 18px;
+        font-weight: bold;
+        color: black;
+        transition: all ease-in-out 0.2s;
+
+    }
+
+    #logoHeader:hover{
+        color: #4F966E;
+        transition: all ease-in-out 0.2s;
+    }
+
+
+    header nav form  {
+        display: flex;
+    }
+
+    header nav form div{
+        padding: 0px 20px;
+        background-color: #E8F2ED;
+        color: #4F966E;
+        padding: 15px;
+        border-radius: 30px;
+    }
+
+    header input[type=search]{
+        background-color: #E8F2ED;
+        color: #4F966E;
+        border: none;
+    }
+
+    header button{
+        margin: 0px 40px;
+        background-color: #E8F2ED;
+        color: black;
+        font-weight: bold;
+        border-radius: 30px;
+        border: none;
+        padding: 0px 30px;
+    }
+
+/* #endregion HEADER */
+
+/* #region FOOTER */
+
+
+
+
+/* #endregion FOOTER*/
+
+/* #region MAIN */
+/* #endregion MAIN*/
+
+/* #region RESPONSIVE TABLET */
+/* #endregion RESPONSIVE TABLET*/
+
+/* #region RESPONSIVE PHONE */
+/* #endregion RESPONSIVE PHONE*/
