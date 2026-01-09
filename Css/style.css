@@ -117,6 +117,102 @@ color: #4F966E;
 /* #endregion FOOTER*/
 
 /* #region MAIN */
+
+    #section1{
+    display: flex;
+    margin: auto;
+    max-width: 1280px;
+    padding: 60px 0px;
+    justify-content: center;
+    color: white;
+    }
+    
+    #section1 div{
+        background-image: url("../imgs/index/fond design.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        max-width: 930px;
+        padding: 160px 0px 20px 0px;
+        border-radius: 15px;
+
+    }
+
+    #section1 h1{
+        font-size: 48px;
+        padding: 20px 0px;
+        font-weight: 800;
+        
+    }
+    
+    #section1 p {
+        line-height: 1.6;
+        margin-bottom: 50px;
+    }
+
+    #BTNreadMore{
+        width: fit-content;
+        padding: 20px;
+        border-radius: 30px;
+        background-color: #1AE570;
+        color: black;
+        font-weight: 700;
+    }
+
+    #section1 article{
+        padding: 50px;
+    }
+
+
+
+
+
+    #section2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: auto;
+    }
+
+    #section2 h2{
+        font-size: 32px;
+        font-weight: bold;
+        padding: 40px 0px;
+    }
+
+    #section2 a{
+        height: fit-content;
+    }
+
+    #section2 article{
+    display: grid;
+    grid-template-columns: 50% 30% 20%;
+    padding-bottom: 80px;
+    }
+
+    #section2 p{
+        color: #4F966E;
+        line-height: 24px;
+    }
+
+    #section2 h3{
+        padding-bottom: 10px;
+    }
+
+
+    #section2 #cadreIMG1{
+        background-image:url("../imgs/index/meeting1.png");
+        background-repeat: no-repeat;
+    }    
+    #section2 #cadreIMG2{
+        background-image:url("../imgs/index/meeting2.png");
+        background-repeat: no-repeat;
+    }    
+    #section2 #cadreIMG3{
+        background-image:url("../imgs/index/meeting3.png");
+        background-repeat: no-repeat;
+    }
+
+
 /* #endregion MAIN*/
 
 /* #region RESPONSIVE TABLET */
