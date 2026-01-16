@@ -151,7 +151,7 @@ color: #4F966E;
 
     #BTNreadMore{
         width: fit-content;
-        padding: 20px;
+        padding: 15px 30px;
         border-radius: 30px;
         background-color: #1AE570;
         color: black;
@@ -181,12 +181,18 @@ color: #4F966E;
 
     #section2 a{
         height: fit-content;
+        right: 10px;
+        position: absolute;
+        bottom: 75px;
     }
 
     #section2 article{
     display: grid;
     grid-template-columns: 50% 30% 20%;
+    gap: 20px;
     padding-bottom: 80px;
+    align-items: center;
+    position: relative;
     }
 
     #section2 p{
@@ -199,17 +205,11 @@ color: #4F966E;
     }
 
 
-    #section2 #cadreIMG1{
-        background-image:url("../imgs/index/meeting1.png");
-        background-repeat: no-repeat;
-    }    
-    #section2 #cadreIMG2{
-        background-image:url("../imgs/index/meeting2.png");
-        background-repeat: no-repeat;
-    }    
-    #section2 #cadreIMG3{
-        background-image:url("../imgs/index/meeting3.png");
-        background-repeat: no-repeat;
+    #section2 img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 15px;
     }
 
 
